@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
+    ">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <div class="navbar">
+        <div class="left-nav">
+          <div class="nav-logo">
+            <!-- <img src="chatbot.png" alt="chatbot"> -->
+            <p class="logo-name">Substation ChatBot</p>
+          </div>
+          <div class="nav-features">
+            <div class="features-badge">v1.0</div>
+            <p class="features">Quick, Accurate and Integrated OpenAI</p>
+          </div>
+        </div>
+        <div class="right-nav">
+          <span class="socials">
+            <i class='bx bxl-twitter' ></i> | <i class='bx bxl-instagram-alt' ></i> | <i class='bx bxl-facebook-circle' ></i> &nbsp;<span>Ministry of Power Under Govt. of India</span>
+          </span>
+        </div>
+      </div>
+    <!-- Chatbot -->
+    <div class="chatbot">
+        <div class="chatbot-header">
+            <div class="status">
+                <i class='bx bx-conversation'></i>
+                <div class="status-combine">
+                    <p class="chatbot-name">ChatBot</p>
+                    <div class="chatbot-status">
+                        <div class="online-icon"></div>
+                        <p>Online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-body">
+            <!-- Starting Intro -->
+            <div class="welcome-chat">
+                <h2>Hi User, Ask your query..</h2>
+                <img src="customer-service.png" alt="chat-icon">
+            </div>
+            <!-- <div class="examples-ques">
+                <h5>Examples</h5>
+                <div class="examples-container">
+                    <p class="example">Tell about the guidelines of testing reactors in substation.</p>
+                    <p class="example">What are the permissible limits of various substation equipments?</p>
+                    <p class="example">How to resolve unexpected breakdown of surge arrestors?</p>
+                    <p class="example">Elaborate the safety guidelines and precautions to test a reactor.</p>
+                </div>
+            </div> -->
+            <div class="example-ques">
+                <h5>Examples</h5>
+                <div class="example-container">
+                    <div class="example"><p>Tell about the guidelines of testing reactors in substation.</p></div>
+                    <div class="example"><p>What are the permissible limits of various substation equipments?</p></div>
+                    <div class="example"><p>How to resolve unexpected breakdown of surge arrestors?</p></div>
+                </div>
+            </div>
+            <form id="start-form" action="">
+                <p>Set creativity for chatbot</p>
+                <input type="range" min="0" max="1" step="0.1" value="0">
+                <button type="submit">Start Chatting</button>
+            </form>
+            <!-- Main Chat Section -->
+            <!-- <div class="chat-msg-box">
+                <div class="chat-icon">
+                    <img src="customer-service.png" alt="chat-icon">
+                </div>
+                <div class="chat-content">
+                    <p class="role" style="font-size: 0.875rem;position: absolute;top: -15px;">Chatbot</p>
+                    <div class="chat-msg">Hi! How may I help you?</div>
+                </div>
+                
+            </div> 
+            <div class="user-msg-box">
+                <div class="user-content">
+                    <p class="role" style="font-size: 0.875rem;position: absolute;top: -15px;align-self: flex-end;">You</p>
+                    <div class="user-msg">Who is better player, messi or ronaldo?</div>
+                </div>
+                <div class="user-icon">
+                    <img src="user-removebg-preview.png" alt="usericon">
+                </div>
+            </div> -->
+        </div>
+        <div class="chatbot-msg">
+            <p>Start chatting now with our smart substation chatbot to clear your queries!!</p>
+            <!-- <form action="/chatbot/newq" method="get">
+                <div class="input-group mb-3">
+                    <input autocomplete="off" name="q" type="text" class="form-control" placeholder="Ask anything and get standard results..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class='bx bxs-send'></i></button>
+                </div>
+            </form> -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <!-- <script src="chatbot.js"></script> -->
+</body>
+</html>
